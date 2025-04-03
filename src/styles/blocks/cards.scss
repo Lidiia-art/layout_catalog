@@ -38,6 +38,10 @@
 
   &:hover {
     transform: scale(1.2);
+
+    .card__title {
+      color: #34568b;
+    }
   }
 
   &__img {
@@ -59,10 +63,6 @@
     font-weight: 500;
     line-height: 18px;
     transition: color 300ms ease;
-
-    &:hover {
-      color: #34568b;
-    }
   }
 
   &__code {
